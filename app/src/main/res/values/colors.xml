@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Morado_degradado_radial">#706897</color>
+    <color name="Morado">#8881C9</color>
+    <color name="Morado_Claro">#E6E4F0</color>
+    <color name="Morado_Oscuro">#484463</color>
+    <color name="Amarillo_Claro">#FFEBA1</color>
+    <color name="Amarillo">#EECE59</color>
+    <color name="Dorado">#C3A840</color>
+    <color name="Rojo">#FF616D</color>
+    <color name="Amarillo_Oscuro">#715F20</color>
+    <color name="Verde">#6AC269</color>
+    <color name="Verde_Pastel">#7ACCAE</color>
+    <color name=""
+</resources>
