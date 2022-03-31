@@ -11,5 +11,10 @@
     <color name="Amarillo_Oscuro">#715F20</color>
     <color name="Verde">#6AC269</color>
     <color name="Verde_Pastel">#7ACCAE</color>
-    <color name=""
+    <color name="Azul">#6484D6</color>
+    <color name="Verde_Oscuro">#4B7264</color>
+    <color name="Azul_Celeste">#BEE2FE</color>
+    <color name="Azul_Oscuro">#2E4FA5</color>
+    <color name="AzulClaro">#EFF8FF</color>
+    <color name="Azul_grisaseo">#BACEDE</color>
 </resources>
