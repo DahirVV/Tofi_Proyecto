@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="valenzuela.dahir.tofi_proyecto.InicioFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/buscarFragment"
+        android:name="valenzuela.dahir.tofi_proyecto.BuscarFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/bibliotecaFragment"
+        android:name="valenzuela.dahir.tofi_proyecto.BibliotecaFragment"
+        android:label="Biblioteca"
+        tools:layout="@layout/fragment_biblioteca" />
+    <fragment
+        android:id="@+id/actividadesFragment"
+        android:name="valenzuela.dahir.tofi_proyecto.actividadesFragment"
+        android:label="Actividades"
+        tools:layout="@layout/fragment_actividades" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="valenzuela.dahir.tofi_proyecto.perfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>
