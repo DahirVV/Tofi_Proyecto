@@ -6,14 +6,24 @@
     tools:context=".perfilFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:fontFamily="@font/nunito_extrabold"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/perfil_btn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="40sp"
-        android:textColor="@color/black"
-        android:text="Perfil" />
+        android:background="@drawable/perfil_button"
+        android:text="Nombre perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/coleccionables_btn"
@@ -35,14 +45,6 @@
         android:textSize="15sp"
         android:layout_gravity="bottom|right"/>
 
-    <Button
-        android:id="@+id/perfil_btn"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/perfil_button"
-        android:text="Nombre perfil"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp" />
+
 
 </FrameLayout>

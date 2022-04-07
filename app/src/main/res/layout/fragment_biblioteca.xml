@@ -1,20 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".BibliotecaFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Biblioteca"
-        android:textColor="@color/black"
-        android:textSize="40dp" />
+        android:fontFamily="@font/nunito_extrabold"
+        android:textSize="35dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/cuenta1"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Titulo 1"
+            android:fontFamily="@font/nunito_light"
+            android:textSize="25dp"/>
+        <ImageButton
+            android:id="@+id/cuenta2"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Titulo 2"
+            android:fontFamily="@font/nunito_light"
+            android:textSize="25dp"/>
+        <ImageButton
+            android:id="@+id/cuenta3"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Titulo 3"
+            android:fontFamily="@font/nunito_light"
+            android:textSize="25dp"/>
+        <ImageButton
+            android:id="@+id/nuevacuenta"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Titulo 4"
+            android:fontFamily="@font/nunito_light"
+            android:textSize="25dp"/>
+    </GridLayout>
 
 
-</FrameLayout>
+</LinearLayout>
