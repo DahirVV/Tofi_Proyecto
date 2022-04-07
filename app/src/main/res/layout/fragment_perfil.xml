@@ -11,8 +11,38 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColor="@color/black"
         android:text="Perfil" />
+
+    <Button
+        android:id="@+id/coleccionables_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/coleccionables_button"
+        android:text="@string/coleccionables_button"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/medallas_btn"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:background="@drawable/medallas_button"
+        android:text="@string/medallas_button"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_gravity="bottom|right"/>
+
+    <Button
+        android:id="@+id/perfil_btn"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/perfil_button"
+        android:text="Nombre perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
 
 </FrameLayout>

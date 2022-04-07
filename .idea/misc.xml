@@ -24,6 +24,17 @@
         <entry key="..\:/Documentos/ProyectosAndroid/Tofi_Proyecto/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/ProyectosAndroid/Tofi_Proyecto/app/src/main/res/menu/botton_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Documentos/ProyectosAndroid/Tofi_Proyecto/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.196" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/drawable/buttonshape_coleccionables.xml" value="0.293" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/drawable/edit_text_custom.xml" value="0.293" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/drawable/medallas_button.xml" value="0.196" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/drawable/perfil_button.xml" value="0.196" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/drawable/round_button.xml" value="0.196" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/layout/activity_inicio_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/layout/activity_main.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/layout/activity_perfiles.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/layout/fragment_actividades.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/layout/fragment_biblioteca.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PC/Documents/GitHub/Tofi_Proyecto/app/src/main/res/layout/fragment_perfil.xml" value="0.24456521739130435" />
       </map>
     </option>
   </component>
