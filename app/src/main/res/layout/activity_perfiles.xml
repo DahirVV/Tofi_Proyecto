@@ -5,12 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Perfiles"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Perfiles"
-        android:fontFamily=""/>
+        android:fontFamily="@font/nunito_extrabold"
+        android:textSize="35dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/cuenta1"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <ImageButton
+            android:id="@+id/cuenta2"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <ImageButton
+            android:id="@+id/cuenta3"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+        <ImageButton
+            android:id="@+id/nuevacuenta"
+            android:src="@drawable/cuenta"
+            android:paddingHorizontal="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:paddingVertical="60dp"/>
+    </GridLayout>
 
 </LinearLayout>

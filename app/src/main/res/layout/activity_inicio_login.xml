@@ -51,6 +51,7 @@
         android:layout_gravity="right"
         android:layout_marginEnd="80dp"/>
     <Button
+        android:id="@+id/btniniciarsesion"
         android:layout_marginTop="20dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -58,6 +59,7 @@
         android:text="Iniciar Sesion"
         android:layout_gravity="center"/>
     <Button
+        android:id="@+id/btnregistrar"
         android:layout_marginTop="5dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
