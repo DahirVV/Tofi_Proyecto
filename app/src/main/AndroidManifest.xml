@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tofi_Proyecto">
         <activity
+            android:name=".Perfiles"
+            android:exported="false" />
+        <activity
             android:name=".inicioLogin"
             android:exported="true">
             <intent-filter>
@@ -24,8 +27,7 @@
             android:label="@string/title_activity_main2" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
