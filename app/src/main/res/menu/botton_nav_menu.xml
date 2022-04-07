@@ -20,6 +20,6 @@
         android:title="Actividades" />
     <item
         android:id="@+id/perfilFragment"
-        android:icon="@drawable/perfil"
+        android:icon="@drawable/perfilselect"
         android:title="Perfil" />
 </menu>
